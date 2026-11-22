@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "lucky_draw",
+  "version": "${version}",
+  "name": "Lucky Draw",
+  "description": "A harmless cosmetic random-reward showcase screen.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.luckydraw.LuckyDrawClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
